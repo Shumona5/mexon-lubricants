@@ -1,7 +1,9 @@
 <?php
 
 use App\Http\Controllers\AutoController;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\IndustrialController;
 use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
@@ -29,3 +31,8 @@ Route::get('/auto',[AutoController::class,'auto'])->name('products.auto');
 Route::get('/auto/motorbike',[AutoController::class,'motorbike'])->name('products.motorbike');
 Route::get('/auto/gasoline',[AutoController::class,'gasoline'])->name('products.gasoline');
 Route::get('/auto/diesel',[AutoController::class,'diesel'])->name('products.diesel');
+
+Route::get('/industrial',[IndustrialController::class,'industrial'])->name('products.industrial');
+Route::get('/industrial/diesel',[IndustrialController::class,'diesel'])->name('product.diesel');
+Route::get('/industrial/grease',[IndustrialController::class,'grease'])->name('products.grease');
+Route::get('/contact',[ContactController::class,'contact'])->name('contact');

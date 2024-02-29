@@ -30,13 +30,13 @@
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="industrial.html" id="navbarDropdown" role="button"
+                <a class="nav-link dropdown-toggle" href="{{route('products.industrial')}}" id="navbarDropdown" role="button"
                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Industrial
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="industrial-diesel.html">Diesel </a></li>
-                  <li><a class="dropdown-item" href="grease.html">Grease</a></li>
+                  <li><a class="dropdown-item" href="{{route('product.diesel')}}">Diesel </a></li>
+                  <li><a class="dropdown-item" href="{{route('products.grease')}}">Grease</a></li>
 
                 </ul>
               </li>
@@ -57,7 +57,7 @@
           </li>
 
           <li> <a href="#business_promotion"> Business Promotion</a></li>
-          <li> <a href="contact.html"> Contacts</a></li>
+          <li> <a href="{{route('contact')}}"> Contacts</a></li>
           <a href="https://bosssend.com/" target="_blank" class="buy-btn"> Buy Online</a>
         </ul>
 

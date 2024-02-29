@@ -15,4 +15,12 @@ class AutoController extends Controller
     {
         return view('frontend.pages.products.motorbike');
     }
+
+    public function gasoline(){
+        return view('frontend.pages.products.gasoline');
+    }
+
+    public function diesel(){
+        return view('frontend.pages.products.diesel');
+    }
 }
