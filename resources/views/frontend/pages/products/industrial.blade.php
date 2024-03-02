@@ -4,7 +4,7 @@
 
     <section>
         <div class="industrial">
-            <img src="{{url('/image/industrial_section_bg2.jpg')}}" alt="Snow" style="width:100%;">
+            <img src="{{url('/image/industry.jpg')}}" alt="Snow" style="width:100%;">
             <div class="top-left1">INDUSTRIAL</div>
            
           </div>
@@ -41,7 +41,7 @@
                 <i class="fa fa-wrench"></i>
               </span>
               <h3>
-                <a href="industrial-diesel.html" class=" ">
+                <a href="{{route('product.diesel')}}" class=" ">
                   <span class="text">Diesel Engine</span>
                   <!-- <span class="ioc"><i class="theme_icon rightArrow2"></i></span> -->
                 </a>
@@ -56,7 +56,7 @@
                     
               </span>
               <h3>
-                <a href="grease.html" class=" ">
+                <a href="{{route('products.grease')}}" class=" ">
                   <span class="text">Grease</span>
                   
                 </a>

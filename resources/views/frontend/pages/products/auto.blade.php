@@ -4,7 +4,7 @@
 
     <section>
         <div class="auto">
-            <img src="{{url('/image/auto_section_bg.jpg')}}" alt="Snow" style="width:100%;">
+            <img src="{{url('/image/auto.jpg')}}" alt="Snow" style="width:100%;">
             <div class="top-left">AUTO</div>
            
           </div>
@@ -50,7 +50,7 @@
                 <i class="fa fa-motorcycle"></i>
               </span>
               <h3>
-                <a href="motorbike.html" class=" ">
+                <a href="{{route('products.motorbike')}}" class=" ">
                   <span class="text">Motorbike Engine Oil</span>
                   <!-- <span class="ioc"><i class="theme_icon rightArrow2"></i></span> -->
                 </a>
@@ -65,7 +65,7 @@
                     
               </span>
               <h3>
-                <a href="gasoline.html" class=" ">
+                <a href="{{route('products.gasoline')}}" class=" ">
                   <span class="text">Gasoline Engine Oil</span>
                   
                 </a>
@@ -78,7 +78,7 @@
                   <i class="fa fa-gears"></i>
               </span>
               <h3>
-                <a href="diesel.html" class=" ">
+                <a href="{{route('products.diesel')}}" class=" ">
                   <span class="text">Diesel Engine</span>
                   
                 </a>

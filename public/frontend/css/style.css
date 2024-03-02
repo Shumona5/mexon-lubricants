@@ -311,7 +311,7 @@ footer{
     justify-content: space-between;
     flex-wrap: wrap; */
     padding: 50px 100px;
-    background-color: rgb(225, 223, 235);
+    background-color: rgb(185, 185, 185);
 }
  footer .container{
    
@@ -449,15 +449,15 @@ footer .container .sec-contact h4{
 
 
 /* Products Pages */
-.center {
+
+  .product-left {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 8px;
+    left: 50px;
+    padding-top: 300px;
     color: #fff;
     font-size: 60px;
-    font-weight: 600;
-   
+    font-weight: 500;
   }
 
 
@@ -470,6 +470,12 @@ footer .container .sec-contact h4{
     position: relative;
 }
 
+.products-p {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+   color:#2E3192;
+}
 
 .lead_sec1 {
 	padding:60px 0;

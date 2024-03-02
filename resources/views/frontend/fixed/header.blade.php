@@ -41,6 +41,20 @@
                 </ul>
               </li>
               <li class="nav-item dropdown">
+                <a class="" href="" id="navbarDropdown" role=""
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Marine and Offshore
+                </a>
+               
+              </li>
+              <li class="nav-item dropdown">
+                <a class="" href="" id="navbarDropdown" role=""
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Speciality Grades
+                </a>
+               
+              </li>
+              <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
                   Others
@@ -56,7 +70,7 @@
             </ul>
           </li>
 
-          <li> <a href="#business_promotion"> Business Promotion</a></li>
+          <li> <a href="{{route('web.home')}}"> Business Promotion</a></li>
           <li> <a href="{{route('contact')}}"> Contacts</a></li>
           <a href="https://bosssend.com/" target="_blank" class="buy-btn"> Buy Online</a>
         </ul>

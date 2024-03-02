@@ -3,7 +3,7 @@
 
  <!-- TagLine start -->
 
- <marquee behavior="scroll" direction="left" style="background-color:#EE2129; color: #fff;height: 30px;">
+ <marquee behavior="scroll" direction="left" style="background-color:black; color: #fff;height: 30px;">
       Mexon lubricants is a worldwide operating lubricant developing distributing high-grade
       greases, engine oils, pastes and sprays for nearly all industrial applications and manu- facturing sectors.
       Since has established an extensive network of subsidiaries and sales representatives around the globe. Our

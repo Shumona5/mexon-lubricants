@@ -3,15 +3,19 @@
 
     <section>
       <div class="solution">
-        <img src="{{url('/image/product.jpg')}}" alt="" style="width: 100%; height: 500px;">
+        <img src="{{url('/image/products.png')}}" alt="" style="width: 100%; height: 520px;">
 
       </div>
-      <div class="center"> Our Products </div>
+      <div class="product-left"> Products & Services </div>
+    </section>
+
+    <section>
+      <p class="products-p"> <b style="color:#f44336 ;">Our</b> Products </p>
     </section>
 
     <div>
       <section class="lead_sec1 fullbg flexStretch over_effect"
-        style="background-image: url('/image/auto_section_bg.jpg');">
+        style="background-image: url('/image/auto.jpg');">
         <div class="container flex-contain product_intro">
           <div class="row">
             <div class="col-md-5">
@@ -21,7 +25,7 @@
                   longevity of a vehicle's engine.
                   Certainly no one is more knowledgeable in vehicle's engine like <b>Mexon </b>
                   Because we only focus on lubricants as an independent manufacturer of lubricants.</p>
-                <a href="auto.html" class="btn1 btn1-mini btn-color">Read more</a>
+                <a href="{{route('products.auto')}}" class="btn1 btn1-mini btn-color">Read more</a>
               </div>
             </div>
           </div>
@@ -29,7 +33,7 @@
       </section>
 
       <section class="lead_sec1 fullbg flexStretch over_effect"
-        style="background-image: url('/image/industrial_section_bg2.jpg');">
+        style="background-image: url('/image/industry.jpg');">
         <div class="container flex-contain product_intro">
           <div class="row">
             <div class="col-md-7"> </div>
@@ -40,7 +44,7 @@
                   all Original Equipment Manufacturers (OEMs) in the industrial sector to make sure that the lubricants
                   satisfy the most recent criteria in the industry...
                 </p>
-                <a href="industrial.html" class="btn1 btn1-mini btn-color">Read more</a>
+                <a href="{{route('products.industrial')}}" class="btn1 btn1-mini btn-color">Read more</a>
               </div>
             </div>
           </div>
@@ -48,7 +52,7 @@
       </section>
 
       <section class="lead_sec1 fullbg flexStretch over_effect"
-        style="background-image: url('/image/marine_section_bg.jpg');">
+        style="background-image: url('/image/Marine.jpg');">
         <div class="container flex-contain product_intro">
           <div class="row">
             <div class="col-md-5">
@@ -67,7 +71,7 @@
       </section>
 
       <section class="lead_sec1 fullbg flexStretch over_effect"
-                style="background-image: url('/image/oil_specility_bg.jpg');">
+                style="background-image: url('/image/Special.jpg');">
                 <div class="container flex-contain product_intro">
                     <div class="row">
                         <div class="col-md-7"> </div>
